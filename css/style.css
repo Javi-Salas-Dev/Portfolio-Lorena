@@ -266,23 +266,23 @@ h1 span{
 	margin-right: 20px;
 }
 
-.redes-link.github{
-	background-image: url(../images/icono.png);
+.redes-link.whatsapp{
+	background-image: url(../images/icono_whatsapp.png);
 	background-size: 50px 50px;
 }
 
-.redes-link.facebook{
-	background-image: url(../images/icono.png);
+.redes-link.linkedin{
+	background-image: url(../images/icono_linkedin.png);
 	background-size: 50px 50px;
 }
 
 .redes-link.instagram{
-	background-image: url(../images/icono.png);
+	background-image: url(../images/icono_instagram.png);
 	background-size: 50px 50px;
 }
 
 .redes-link.twitter{
-	background-image: url(../images/icono.png);
+	background-image: url(../images/icono_twitter.png);
 	background-size: 50px 50px;
 }
 
