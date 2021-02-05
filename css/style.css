@@ -9,7 +9,7 @@ body{
 }
 
 header{
-	background-color: #374045;
+	background-color: #252525;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -19,12 +19,29 @@ header{
 header figure{
 	margin: 0px 0px 0px 20px;
 	height: 45px;
-	width: 65px;
+	width: 150px;
 }
 
-header figure img{
+/*header figure img{
 	width: inherit;
 	height: inherit;
+}*/
+
+.header figure p{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	width: inherit;
+	height: inherit;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	user-select: none;
+}
+
+.header figure p a{
+	text-decoration: none;
+	color: white;
 }
 
 h1, h2, h3, h4, h5{
@@ -39,7 +56,7 @@ h1{
 }
 
 h2{
-	color:blue;
+	color:#19d3da;
 	margin: 0;
 	padding: 30px 0px;
 	text-transform: uppercase;
@@ -53,6 +70,7 @@ h1 span{
 
 .menu{
 	height: inherit;
+	user-select: none;
 }
 
 .menu ul{
@@ -67,6 +85,17 @@ h1 span{
 .menu ul li{
 	margin: 0px 10px;
 	height: inherit;
+}
+
+.menu ul li a{
+	font-weight: 500;
+	font-size: 22px;
+}
+
+.menu ul li a:hover{
+	color: #19d3da;
+	font-weight: 500; 
+	font-size: 22px;
 }
 
 .link{
@@ -103,13 +132,13 @@ h1 span{
 
 .projects{
 	padding: 0px 30px 10px 30px;
-	background-color: #744bc525;
+	background-color: #393e46;
 }
 
 .project{
 	background-color: white; 
 	border-radius: 10px;
-	box-shadow: 0px 0px 10px black;
+	box-shadow: 0px 0px 10px white;
 	display: flex;
 	margin-bottom: 20px;
 	padding: 30px;
@@ -287,7 +316,7 @@ h1 span{
 }
 
 .footer{
-	background: #374045;
+	background: #252525;
 	color: white;
 	font-weight: 600;
 	display: flex;
